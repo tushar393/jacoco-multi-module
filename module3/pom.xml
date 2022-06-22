@@ -179,9 +179,6 @@
               <goal>check</goal>
             </goals>
             <configuration>
-<!--              <fileSet>-->
-<!--                <directory>${code.coverage.project.folder}/target/classes</directory>-->
-<!--              </fileSet>-->
               <rules>
                 <rule>
                   <element>BUNDLE</element>
