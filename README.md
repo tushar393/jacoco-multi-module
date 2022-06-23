@@ -3,7 +3,7 @@
 ## Overview
 >A sample multi-modular maven project demonstrating how to met coverage for unit, integration and/or functional testing withing different modules.
 >The test results is aggregated by Jacoco plugin and a merged code coverage report is being generated.
->The detailed blog and instructions of the project is described in [blog](https://sonarcloud.io/api/project_badges/quality_gate?project=tushar393_jacoco-multi-module-sample).
+>The detailed blog and instructions of the project is described in [blog]([![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tushar393_jacoco-multi-module-sample)](https://sonarcloud.io/summary/new_code?id=tushar393_jacoco-multi-module-sample)).
 
 ## Run Command
 
@@ -26,7 +26,7 @@ _Note: Set a lower Coverage ratio in pom.xml_
 
 `$ mvn clean install -P testAll`
   
- _Note: You may add additional configuration for jacoco and control the behaviour. For additional configuration details visit [here.](https://sonarcloud.io/api/project_badges/quality_gate?project=tushar393_jacoco-multi-module-sample)_  
+ _Note: You may add additional configuration for jacoco and control the behaviour. For additional configuration details visit [here.]([![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tushar393_jacoco-multi-module-sample)](https://sonarcloud.io/summary/new_code?id=tushar393_jacoco-multi-module-sample))_  
 
 # Result: 
 The below test coverage report shows coverage for `testAll` profile. 
