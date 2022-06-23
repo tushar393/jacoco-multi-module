@@ -35,6 +35,10 @@
     <sonar.projectKey>tushar393_jacoco-multi-module-sample</sonar.projectKey>
     <sonar.organization>tushar393</sonar.organization>
     <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
+
+    <sonar.coverage.jacoco.xmlReportPaths>
+      ${basedir}/module3/target/site/jacoco-aggregate/jacoco.xml
+    </sonar.coverage.jacoco.xmlReportPaths>
   </properties>
 
   <dependencies>
