@@ -1,5 +1,7 @@
 # Jacoco coverage for Multi Module Maven Project
 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=tushar393_jacoco-multi-module-sample&metric=coverage)](https://sonarcloud.io/summary/new_code?id=tushar393_jacoco-multi-module-sample)
+
 ## Overview
 >A sample multi-modular maven project demonstrating how to met coverage for unit, integration and/or functional testing withing different modules.
 >The test results is aggregated by Jacoco plugin and a merged code coverage report is being generated.
