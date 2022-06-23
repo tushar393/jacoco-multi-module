@@ -26,12 +26,15 @@
     <itCoverageAgent></itCoverageAgent>
     <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
     <maven-failsafe-plugin.version>2.18.1</maven-failsafe-plugin.version>
-    <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <code.coverage.project.folder>${basedir}/../</code.coverage.project.folder>
     <code.coverage.overall.data.folder>${basedir}/target/</code.coverage.overall.data.folder>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.projectKey>tushar393_jacoco-multi-module-sample</sonar.projectKey>
+    <sonar.organization>tushar393</sonar.organization>
+    <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
   </properties>
 
   <dependencies>
@@ -68,7 +71,7 @@
           <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.7</version>
+            <version>0.8.8</version>
             <executions>
               <execution>
                 <id>prepare-agent</id>
