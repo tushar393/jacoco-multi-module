@@ -20,6 +20,11 @@
     <code.coverage.overall.data.folder>${basedir}/target/</code.coverage.overall.data.folder>
     <cucumber-junit.version>5.7.0</cucumber-junit.version>
     <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
+
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.projectKey>tushar393_jacoco-multi-module-sample</sonar.projectKey>
+    <sonar.organization>tushar393</sonar.organization>
+    <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
   </properties>
 
   <dependencies>
